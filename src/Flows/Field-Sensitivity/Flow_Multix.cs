@@ -1,6 +1,6 @@
 namespace FlowBlot.Flows.Field_Sensitivity
 {
-    public class Flow_Multi2
+    public class Flow_Multix
     {
         public void Run2()
         {
