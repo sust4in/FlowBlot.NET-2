@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Flows\Context-Sensitivity\Flow_00010.cs" />
+    <Compile Include="Flows\Field-Sensitivity\Flow_Multi.cs" />
     <Compile Include="Flows\Flow-Sensitivity\Flow_00071.cs" />
     <Compile Include="Flows\Flow-Sensitivity\Flow_00070.cs" />
     <Compile Include="Flows\Lambda-Functions\Flow_00077.cs" />
