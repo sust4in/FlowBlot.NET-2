@@ -7,7 +7,7 @@ namespace FlowBlot.Flows.Field_Sensitivity
     
     public class Flow_Multi
     {
-        public void Run()
+        public void Foo()
         {
             var to = new TestObject();
             to.Label = FlowBlot.Model.Framework.Source();
