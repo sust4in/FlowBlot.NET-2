@@ -14,6 +14,8 @@ namespace FlowBlot.Flows.Field_Sensitivity
             to.Label = FlowBlot.Model.Framework.Source();
             Bar(to);
             Run2();
+            Bar(to);
+            RecBar(to);
         }
         
         public void Run2()
@@ -27,5 +29,17 @@ namespace FlowBlot.Flows.Field_Sensitivity
         {
             FlowBlot.Model.Framework.Sink(to.Label);
         }
+        
+        public void RecBar(TestObject to)
+        {
+            RecBar(to);
+            RecBar(to);
+            RecBar(to);
+            RecBar(to);
+            RecBar(to);
+            RecBar(to);
+            FlowBlot.Model.Framework.Sink(to.Label);
+        }
+    }
     }
 }
